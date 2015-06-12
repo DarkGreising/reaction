@@ -1,3 +1,0 @@
-#!/bin/bash
-
-meteor --raw-logs --settings settings/dev.settings.json

@@ -2,6 +2,7 @@
   "ROOT_URL": "",
   "MONGO_URL": "",
   "MAIL_URL": "",
+  "oauthSecretKey": "HTNCkLlE1BhEybIn3d0CKw==",
   "reaction": {
     "METEOR_USER": "",
     "METEOR_AUTH": "",

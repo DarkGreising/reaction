@@ -16,7 +16,7 @@ dependencies:
 
 test:
   override:
-    - cd $HOME/$CIRCLE_PROJECT_REPONAME  && meteor run --test --release velocity:METEOR@1.1.0.2_2
+    - cd $HOME/$CIRCLE_PROJECT_REPONAME  && meteor --test
     - docker run -d -p 3000:3000 ongoworks/reaction; sleep 10
     - curl --retry 10 --retry-delay 5 -v http://localhost:3000
 
@@ -25,6 +25,3 @@ deployment:
     branch: master
     commands:
       - $DEPLOY
-notify:
-  webhooks:
-    - url: https://webhooks.gitter.im/e/d7372b8add1c57bc8d96

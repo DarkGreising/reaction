@@ -10,11 +10,9 @@
 #   requestOfflineToken: google: true
 #   passwordSignupFields: 'EMAIL_ONLY'
 
-# Accounts.config({oauthSecretKey: ...}
-
 #
-# Configuration for bengott:avatar
-# See: https://github.com/bengott/meteor-avatar
+# Configuration for sacha:avatar
+# See: https://github.com/sachag/meteor-avatar/
 #
 
 Avatar.options = {
